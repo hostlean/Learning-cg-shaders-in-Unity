@@ -1,6 +1,6 @@
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "CMY cube" { 
+Shader "Custom/CMY cube" { 
    SubShader { 
       Pass { 
          CGPROGRAM 

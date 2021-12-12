@@ -1,4 +1,4 @@
-Shader "Minimal shader" { // defines the name of the shader 
+Shader "Custom/Minimal shader" { // defines the name of the shader 
    SubShader { // Unity chooses the subshader that fits the GPU best
       Pass { // some shaders require multiple passes
          CGPROGRAM // here begins the part in Unity's Cg

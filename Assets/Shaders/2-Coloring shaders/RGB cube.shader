@@ -1,6 +1,6 @@
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "RGB cube" { 
+Shader "Custom/RGB cube" { 
    SubShader { 
       Pass { 
          CGPROGRAM 
