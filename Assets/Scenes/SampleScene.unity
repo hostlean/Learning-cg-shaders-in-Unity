@@ -354,5 +354,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: All built-in vertex shaders cube
       objectReference: {fileID: 0}
+    - target: {fileID: 5103120198585850726, guid: 3a3dadd2439b72a45aee94b74e1f4923, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a3dadd2439b72a45aee94b74e1f4923, type: 3}

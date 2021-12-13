@@ -14,7 +14,7 @@ Shader "Custom/HSV cylinder" {
          {
             pos =  UnityObjectToClipPos(vertexPos);
 
-            const float hue = 180.0f+degrees(atan2(vertexPos.z, vertexPos.x));
+            const float hue = 179.99f+degrees(atan2(vertexPos.z, vertexPos.x));
             const float saturation = (2.0f * sqrt(vertexPos.x * vertexPos.x + vertexPos.z * vertexPos.z));
             const float val = (vertexPos.y + 1.0f) / 2.0f;
 
@@ -24,7 +24,7 @@ Shader "Custom/HSV cylinder" {
 
             float3 rgb = float3(0.0f ,0.0f ,0.0f);
             
-            if(h1 > 0.0f && h1 < 1.0f)
+            if(h1 >= 0.0f && h1 < 1.0f)
             {
                 rgb = float3(chroma, x, 0.0f);
             }
@@ -44,7 +44,7 @@ Shader "Custom/HSV cylinder" {
             {
                 rgb = float3(x, 0.0f ,chroma);
             }
-            else if(h1 >= 5.0f && h1 < 6.0f)
+            else if(h1 >= 5.0f && h1 <= 6.0f)
             {
                 rgb = float3(chroma, 0.0f, x);
             }
