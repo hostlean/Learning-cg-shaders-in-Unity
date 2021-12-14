@@ -44,7 +44,7 @@ Shader "Custom/HSV cylinder" {
             {
                 rgb = float3(x, 0.0f ,chroma);
             }
-            else if(h1 >= 5.0f && h1 <= 6.0f)
+            else if(h1 >= 5.0f && h1 < 6.0f)
             {
                 rgb = float3(chroma, 0.0f, x);
             }
@@ -53,9 +53,6 @@ Shader "Custom/HSV cylinder" {
             float3 newRgb = float3(rgb.x + match, rgb.y + match, rgb.z + match);
 
             col = float4(newRgb.x, newRgb.y, newRgb.z, 0);
-            
-          
-            
          }
  
          float4 frag(float4 pos : SV_POSITION, 

@@ -139,3 +139,20 @@ Received Import Request.
 Start importing Assets/Shaders/2-Coloring shaders/HSV cylinder.shader using Guid(0c68991bb924b9446b14713b1438f785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09637da67b9f9f266d7bbb1b1a3a6ad') in 0.026195 seconds 
   Import took 0.028687 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 11652.993809 seconds.
+  path: Assets/Shaders/3-Debugging shaders/PreDefined input structures.shader
+  artifactKey: Guid(e1838c3f6c0646b39584a49179631397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/3-Debugging shaders/PreDefined input structures.shader using Guid(e1838c3f6c0646b39584a49179631397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0611548d67abedc8c6b70ee77f86ea3b') in 0.019540 seconds 
+  Import took 0.053042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 682.753987 seconds.
+  path: Assets/Prefabs/3-Debugging shaders/False Color Sphere.prefab
+  artifactKey: Guid(20e8e9078f1be9d45a38186aebc26d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/3-Debugging shaders/False Color Sphere.prefab using Guid(20e8e9078f1be9d45a38186aebc26d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4e9bf3bac67c2f24404341bed93e59') in 0.143429 seconds 
+  Import took 0.146478 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
